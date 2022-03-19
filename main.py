@@ -159,4 +159,4 @@ def update():
 
 if __name__ == "__main__":
     mysql.create_all()
-    app.run(host="localhost", port=int("5000"))
+    app.run(host="0.0.0.0", port=int("5000"))
